@@ -1,12 +1,12 @@
 default_environments:
-  - development
-  - staging
-  - production
+  - development_07
+  - staging_07
+  - production_07
 environment_groups:
   qa_group:
-    - staging
+    - staging_07
   test_group:
-    - development 
+    - development_07
 version_change_threshold: 2
 preserve_constraint_operators: true
 environment_path: "/home/vagrant/chef-repo-training/environments"
