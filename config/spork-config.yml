@@ -9,10 +9,10 @@ environment_groups:
     - development 
 version_change_threshold: 2
 preserve_constraint_operators: true
-environment_path: "/home/vagrant/chef-repo-training/environments"
+environment_path: "/home/workshop/chef-repo-training/environments"
 save_environment_locally_on_create: false
-role_path: "/home/vagrant/chef-repo-training/roles"
-custom_plugin_path: "/home/vagrant/chef-repo-training/spork-plugins"
+role_path: "/home/workshop/chef-repo-training/roles"
+custom_plugin_path: "/home/workshop/chef-repo-training/spork-plugins"
 always_promote_remote: true
 skip_berkshelf: false
 role_match_file_name: true
