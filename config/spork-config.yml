@@ -1,18 +1,18 @@
 default_environments:
-  - development_07
-  - staging_07
-  - production_07
+  - development07
+  - staging07
+  - production07
 environment_groups:
   qa_group:
-    - staging_07
+    - staging07
   test_group:
-    - development_07
+    - development07
 version_change_threshold: 2
 preserve_constraint_operators: true
-environment_path: "/home/aleclair/chef-repo-training/environments"
+environment_path: "/home/workshop/chef-repo-training/environments"
 save_environment_locally_on_create: false
-role_path: "/home/aleclair/chef-repo-training/roles"
-custom_plugin_path: "/home/aleclair/chef-repo-training/spork-plugins"
+role_path: "/home/workshop/chef-repo-training/roles"
+custom_plugin_path: "/home/workshop/chef-repo-training/spork-plugins"
 always_promote_remote: true
 skip_berkshelf: false
 role_match_file_name: true
