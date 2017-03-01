@@ -1,1 +1,1 @@
-{"name":"client-server","chef_environment":"_default","json_class":"Chef::Node","automatic":{},"normal":{},"chef_type":"node","default":{},"override":{},"run_list":["role[webserver]"]}
+{"name":"client-server_07","chef_environment":"_default","json_class":"Chef::Node","automatic":{},"normal":{},"chef_type":"node","default":{},"override":{},"run_list":["role[webserver_07]"]}
