@@ -2,7 +2,7 @@
     "name": "staging07",
     "description": "",
     "cookbook_versions": {
-        "myfirst_cookbook07": "= 0.3.0"
+        "myfirst_cookbook07": "= 0.4.0"
     },
     "json_class": "Chef::Environment",
     "chef_type": "environment",
