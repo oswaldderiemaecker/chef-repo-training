@@ -1,0 +1,1 @@
+{"name":"workshop14.ilab.local","chef_environment":"_default","json_class":"Chef::Node","automatic":{},"normal":{},"chef_type":"node","default":{},"override":{},"run_list":["role[webserver07]"]}
