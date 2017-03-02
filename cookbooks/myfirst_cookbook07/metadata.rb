@@ -4,7 +4,7 @@ maintainer_email 'you@example.com'
 license 'all_rights'
 description 'Installs/Configures myfirst_cookbook07'
 long_description 'Installs/Configures myfirst_cookbook07'
-version '1.0.0'
+version '0.5.0'
 
 # The `issues_url` points to the location where issues for this cookbook are
 # tracked.  A `View Issues` link will be displayed on this cookbook's page when
@@ -19,3 +19,4 @@ issues_url 'https://github.com/KoAi/chef-repo-training/myfirst_cookbook07/issues
 source_url 'https://github.com/KoAi/chef-repo-training/myfirst_cookbook07' if respond_to?(:source_url)
 
 depends 'chef_nginx', '~> 5.0.7'
+depends 'java', '~> 1.47.0'
