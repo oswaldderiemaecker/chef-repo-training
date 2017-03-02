@@ -17,3 +17,6 @@ issues_url 'https://github.com/KoAi/chef-repo-training/myfirst_cookbook07/issues
 # a Supermarket.
 #
 source_url 'https://github.com/KoAi/chef-repo-training/myfirst_cookbook07' if respond_to?(:source_url)
+
+depends 'chef_nginx', '~> 5.0.7'
+

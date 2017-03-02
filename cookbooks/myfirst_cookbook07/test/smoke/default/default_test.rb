@@ -12,7 +12,7 @@ unless os.windows?
 end
 
 describe port(80) do
-  it { should_not be_listening }
+  it { should  be_listening }
 end
 
 describe package('unzip') do
