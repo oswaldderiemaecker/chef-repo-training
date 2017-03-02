@@ -9,8 +9,5 @@ package 'lynx'
 package 'telnet'
 package 'unzip'
 
-if node['platform'] == 'centos'
-  package 'openssl'
-end
-
+package 'openssl' if node['platform'] == 'centos'
 include_recipe 'chef_nginx'

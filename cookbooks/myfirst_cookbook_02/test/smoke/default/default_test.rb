@@ -18,5 +18,5 @@ describe port(80) do
 end
 
 describe command('vim --help') do
-   its('stdout') { should match (/VIM - Vi IMproved/) }
+  its('stdout') { should match(/VIM - Vi IMproved/) }
 end
