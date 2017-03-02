@@ -1,1 +1,13 @@
-{"name":"staging07","description":"","cookbook_versions":{},"json_class":"Chef::Environment","chef_type":"environment","default_attributes":{},"override_attributes":{}}
+{
+    "name": "staging07",
+    "description": "",
+    "cookbook_versions": {
+        "myfirst_cookbook07": "= 0.2.0"
+    },
+    "json_class": "Chef::Environment",
+    "chef_type": "environment",
+    "default_attributes": {
+    },
+    "override_attributes": {
+    }
+}
