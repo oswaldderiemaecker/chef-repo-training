@@ -6,3 +6,4 @@
 
 package 'vim'
 package 'lynx'
+package 'telnet'
