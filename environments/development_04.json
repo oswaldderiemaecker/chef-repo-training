@@ -2,7 +2,7 @@
     "name": "development_04",
     "description": "",
     "cookbook_versions": {
-        "myfirst_cookbook_04": "= 0.5.1"
+        "myfirst_cookbook_04": "= 0.6.0"
     },
     "json_class": "Chef::Environment",
     "chef_type": "environment",
