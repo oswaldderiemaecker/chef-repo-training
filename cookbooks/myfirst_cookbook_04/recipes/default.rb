@@ -7,4 +7,4 @@
 package 'vim'
 package 'lynx'
 package 'telnet'
-package 'wget'
+package 'unzip'
