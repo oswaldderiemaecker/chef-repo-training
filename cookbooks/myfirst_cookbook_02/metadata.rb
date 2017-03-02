@@ -8,3 +8,5 @@ version '0.4.0'
 
 issues_url 'https://github.com/oswaldderiemaecker/chef-repo-training/myfirst_cookbook/issues' if respond_to?(:issues_url)
 source_url 'https://github.com/oswaldderiemaecker/chef-repo-training/myfirst_cookbook' if respond_to?(:source_url)
+
+depends 'chef_nginx', '~> 5.0.7'
