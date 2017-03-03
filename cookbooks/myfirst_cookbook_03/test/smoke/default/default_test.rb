@@ -22,5 +22,5 @@ describe command('unzip') do
 end
 
 describe command('java -version') do
-  its('stdout') { should match(/java/) }
+  its('stdout') { should match(/*java*/) }
 end
