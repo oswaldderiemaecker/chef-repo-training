@@ -12,7 +12,7 @@ unless os.windows?
 end
 
 describe port(80) do
-  it { should  be_listening }
+  it { should be_listening }
 end
 
 describe package('unzip') do
@@ -20,5 +20,5 @@ describe package('unzip') do
 end
 
 describe command('unzip') do
-   its('stdout') { should match (/UnZip 6/) }
+  its('stdout') { should match(/UnZip/) }
 end

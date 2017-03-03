@@ -4,13 +4,12 @@
 #
 # Copyright:: 2017, The Authors, All Rights Reserved.
 
-if node['platform'] == 'centos'
-  package 'openssl'
-end
-
-include_recipe 'chef_nginx'
-
 package 'vim'
 package 'lynx'
 package 'telnet'
 package 'unzip'
+
+include_recipe 'java'
+
+package 'openssl' if node['platform'] == 'centos'
+include_recipe 'chef_nginx'
